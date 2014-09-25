@@ -1,0 +1,409 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 18, 2014, 9:34:50 AM
+    Author     : ideabox
+*/
+
+* {
+    box-sizing: border-box;
+}
+.clearfix:after, .clearfix:before {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.imga {
+    max-width: 100%;
+}
+
+body {
+    background-image: url(bg.png);
+    background-repeat: repeat;
+    background-position: top left;
+    background-attachment: fixed;
+    color: #000;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    display: block;
+}
+
+.textwidget {
+    text-align: center;
+    padding: 30px;
+    color: #999;
+    font-size: 16px;
+}
+.site-container {
+    background-color: #fff;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+    padding-left: 60px;
+    padding-right: 60px;
+}
+/*Header Start*/
+
+.site-header {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.site-title a {
+    text-decoration: none;
+    color: #000;
+}
+
+.site-description {
+    font-family: Alice, serif;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+/*Header End*/
+
+
+/*Bootstrap Navbar Start*/
+
+.navbar-default {
+    background-color: #fff;
+
+}
+
+.navbar {
+    border-radius: 0;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border-top: double #ddd;
+    border-bottom: double #ddd;
+    border-right: none;
+    border-left: none;
+
+}
+
+.navbar-default .navbar-brand {
+    color: #000;
+    font-size: 15px;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #ff0000;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #000;
+    font-size: 15px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #ff0000;
+}
+.nav>li {
+    float: none;
+    display: inline-block;
+}
+
+.navbar-default ul{
+    text-align:center;
+    float:none;
+}
+
+/*Bootstrap Navbar End*/
+
+/*Site-inner Start*/
+
+.site-inner {
+    clear: both;
+    margin: 40px 0;
+}
+
+.content {
+    float: left;
+    padding-left: 0px;
+    padding-right: 30px;
+
+}
+
+.home-top, .home-middle {
+    margin-bottom: 40px;
+}
+
+
+.widget-title {
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding: 12px 15px;
+    text-transform: uppercase;
+}
+
+.entry-title-1 {
+    font-family: Alice, serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.entry-title {
+    font-family: Alice, serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.entry-title-1 a, .entry-title a, .site-footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+.entry-title-1 a:hover, .entry-title a:hover, .site-footer a:hover {
+    color:#e14d43;
+    text-decoration: none;
+}
+
+.more-link {
+    color:#e14d43;
+    text-decoration: none;
+}
+
+.more-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+.widget {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.avatar {
+    float: left;
+    height: 115px;
+    width: 115px;
+    margin-right: 20px;
+}
+
+.featured-1,.featured-2 {
+    margin-bottom: 32px;
+}
+
+.featured {
+    clear: both;
+    border-bottom: 1px dotted #ddd;
+    margin-bottom: 20px;
+}
+
+.featured-content {
+    margin-bottom: 20px;
+}
+
+.alignleft {
+    clear: both;
+    margin: 0 20px 40px 0;
+    float: left;
+}
+
+
+.sidebar {
+    float: right;
+    padding-left: 30px;
+    padding-right: 0px;
+}
+
+.small-imgs {
+    width: 100px;
+    height: 100px;
+}
+
+.icons ul li {
+    background: none !important;
+    border: none !important;
+    float:left;
+    list-style-type: none !important;
+    margin: 0 6px 12px !important;
+    padding: 0 !important;
+}
+
+.icons li {
+    text-align: center;
+}
+
+/*Site-inner End*/
+
+.widgettitle {
+    text-align: center;
+}
+
+.featured-thumbnail {
+    margin-bottom: 30px;
+}
+
+.before-footer-widgets {
+    border-bottom: double #ddd;
+    margin-bottom: 30px;
+}
+
+.footer-widgets {
+    clear: both;
+    padding-bottom: 20px;
+    border-bottom: double #ddd;  
+}
+
+.footer-widgets ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-widgets li {
+    border-bottom: 1px dotted #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+.footer-widgets li a {
+    color: #e14d43;
+    text-decoration: none;
+
+}
+
+.footer-widgets li a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.site-footer, .after-footer {
+    font-size: 15px;
+    font-weight: 700px;
+    text-align: center;
+    padding: 20px;
+}
+
+.after-footer {
+    color: #999;
+}
+
+/*search-area Start*/
+.search {
+    margin-bottom: 30px;
+}
+
+.search-form {
+    overflow: hidden;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+input[type="search"] {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.06);
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px;
+    width: 100%;
+}
+/*search-area End*/
+
+/*form css start*/
+
+#forms {
+    margin-bottom: 20px;
+}
+#subbox1,#subbox2 ,#subbox3 {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    color:#999;
+}
+
+input[type="submit"] {
+    background-color: #f5f5f5;
+    box-shadow: none;
+    border: 1px solid #ddd;
+    color: #000;
+    cursor: pointer;
+    padding: 16px 24px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #e14d43;
+    color: #fff;
+}
+
+/*form css end*/
+
+/*
+Media Queries
+---------------------------------------------------------------------------------------------------- */
+@media(max-width:1199px) {
+    .featured-thumbnail {
+        text-align: center;
+    }
+    
+    .thumb {
+        margin-top: 30px;
+    }
+    
+    .before-footer-widgets>.widget-title {
+        margin-bottom: 0;
+    }
+       
+}
+
+@media (max-width:991px) {
+    .content {
+        padding: 0;
+    }
+    
+    .sidebar {
+        padding: 0;
+    }
+    
+    .widget-title {
+        text-align: center;
+    }
+    
+    .home-top h2 {
+        text-align: center;
+    }
+}
+
+@media (max-width:767px) {
+    .footer-widgets li {
+        text-align: center;
+    }
+    
+    .navbar-toggle {
+        float: none;
+    }
+    
+    .navbar-header {
+        text-align: center;
+    }
+    
+    
+    
+}
